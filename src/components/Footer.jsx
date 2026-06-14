@@ -1,5 +1,5 @@
 function Footer() {
-  const phoneNumber = "919285154554";
+  const phoneNumber = "918126038636";
   const message = "Hello! I would like to place an order from The Sunday Oven";
   const url = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
 
