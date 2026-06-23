@@ -516,3 +516,89 @@ h3 {
     display: flex;
   }
 } 
+
+.menu-section{
+  background:#fbf6ef;
+  padding:80px 8%;
+  position:relative;
+}
+
+.menu-heading{
+  text-align:center;
+  margin-bottom:60px;
+}
+
+.menu-subtitle{
+  color:#9c6b30;
+  font-weight:600;
+  letter-spacing:3px;
+}
+
+.menu-heading h2{
+  font-size:60px;
+  color:#3e2315;
+  margin:10px 0;
+  font-family:'Playfair Display', serif;
+}
+
+.menu-heading span{
+  font-size:40px;
+  color:#c58a42;
+  font-family: "Great Vibes", cursive;
+}
+
+.menu-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.menu-card {
+  width: 320px;
+}
+
+.menu-card {
+  background: #fdf7f1;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-8px);
+}
+
+.menu-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.menu-content {
+  padding: 20px;
+}
+
+.menu-content h3 {
+  color: #5b3214;
+  margin-bottom: 15px;
+}
+
+.menu-content ul {
+  text-align: left;
+  padding-left: 20px;
+}
+
+
+
+.menu-card li {
+  font-size: 15px;
+  font-family: "Playfair Display", Arial;
+  font-weight: 500;
+  color: #5c4033;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+}
+
+

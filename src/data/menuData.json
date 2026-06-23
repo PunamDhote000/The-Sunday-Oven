@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Stuffed Vada Pao",
+    "icon": "🍔",
+    "image": "/images/vadapao.jpg",
+    "items": [
+      "Classic Masala Vada Pao",
+      "Cheesy Vada Pao",
+      "Schezwan Vada Pao",
+      "Peri Peri Vada Pao"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cookies",
+    "icon": "🍪",
+    "image": "/images/cookies.jpg",
+    "items": [
+      "Classic Chocolate Chip",
+      "Double Chocolate",
+      "Choco Chip Walnut",
+      "Oatmeal Raisin",
+      "Peanut Butter",
+      "Red Velvet Crinkle",
+      "Almond & Cranberry",
+      "Matcha White Chocolate"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Brownies",
+    "icon": "🧁",
+    "image": "/images/brownies.jpg",
+    "items": [
+      "Classic Fudgy Brownie",
+      "Chocolate Walnut Brownie",
+      "Nutella Brownie",
+      "Salted Caramel Brownie",
+      "Biscoff Brownie",
+      "Oreo Brownie"
+    ]
+  }
+]

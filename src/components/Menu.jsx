@@ -1,31 +1,37 @@
+import menuData from "../data/menuData.json";
+import MenuCard from "./MenuCard";
+
 function Menu() {
   return (
-    <section className="menu" id="menu">
-      <h2>Our Menu</h2>
+    <section className="menu-section" id="menu">
 
-      <div className="menu-container">
+      <div className="menu-heading">
 
-        <div className="menu-card">
-          <h3>Cakes</h3>
-          <p>Freshly baked delicious cakes for every occasion.</p>
-        </div>
+        <p className="menu-subtitle">
+          ─ OUR MENU ─
+        </p>
 
-        <div className="menu-card">
-          <h3>Cookies</h3>
-          <p>Crunchy and soft cookies made with love.</p>
-        </div>
+        <h2>
+          Made with Love,
+        </h2>
 
-        <div className="menu-card">
-          <h3>Pastries</h3>
-          <p>Sweet pastries baked fresh every morning.</p>
-        </div>
-
-        <div className="menu-card">
-          <h3>Breads</h3>
-          <p>Healthy artisan breads with premium ingredients.</p>
-        </div>
+        <span>
+          Baked to Perfection
+        </span>
 
       </div>
+
+      <div className="menu-grid">
+
+        {menuData.map((item) => (
+          <MenuCard
+            key={item.id}
+            {...item}
+          />
+        ))}
+
+      </div>
+
     </section>
   );
 }
