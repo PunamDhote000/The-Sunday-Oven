@@ -2,19 +2,14 @@ function MenuCard({ title, image, icon, items }) {
   return (
     <div className="menu-card">
 
-      <img
-        src={image}
-        alt={title}
-        className="menu-image"
-      />
-
-      <div className="card-icon">
-        {icon}
-      </div>
-
-      <div className="card-content">
-
+      <div className="menu-content">
         <h3>{title}</h3>
+
+        <img
+          src={image}
+          alt={title}
+          className="menu-image"
+        />
 
         <div className="divider"></div>
 

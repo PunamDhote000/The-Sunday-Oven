@@ -2,7 +2,6 @@
   {
     "id": 1,
     "title": "Stuffed Vada Pao",
-    "icon": "🍔",
     "image": "/images/vadapao.jpg",
     "items": [
       "Classic Masala Vada Pao",
@@ -14,7 +13,6 @@
   {
     "id": 2,
     "title": "Cookies",
-    "icon": "🍪",
     "image": "/images/cookies.jpg",
     "items": [
       "Classic Chocolate Chip",
@@ -30,7 +28,6 @@
   {
     "id": 3,
     "title": "Brownies",
-    "icon": "🧁",
     "image": "/images/brownies.jpg",
     "items": [
       "Classic Fudgy Brownie",
