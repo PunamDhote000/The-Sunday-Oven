@@ -2,7 +2,6 @@
   {
     "id": 1,
     "title": "Stuffed Vada Pao",
-    "icon": "🍔",
     "image": "/images/vadapao.jpg",
     "items": [
       "Classic Masala Vada Pao",
@@ -14,7 +13,6 @@
   {
     "id": 2,
     "title": "Cookies",
-    "icon": "🍪",
     "image": "/images/cookies.jpg",
     "items": [
       "Classic Chocolate Chip",
@@ -30,7 +28,6 @@
   {
     "id": 3,
     "title": "Brownies",
-    "icon": "🧁",
     "image": "/images/brownies.jpg",
     "items": [
       "Classic Fudgy Brownie",
@@ -39,6 +36,43 @@
       "Salted Caramel Brownie",
       "Biscoff Brownie",
       "Oreo Brownie"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Tea Cakes",
+    "image": "/images/teacakes.jpg",
+    "items": [
+      "Vanilla Tea Cake",
+      "Chocolate Tea Cake",
+      "Lemon Tea Cake",
+      "Marble Tea Cake",
+      "Banana Walnut Cake",
+      "Carrot Walnut Cake"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Breads",
+    "image": "/images/breads.jpg",
+    "items": [
+      "Banana Bread",
+      "Whole Wheat Bread",
+      "Milk Bread",
+      "Garlic Bread",
+      "Focaccia (Herb)"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Extras",
+    "image": "/images/extras.jpg",
+    "items": [
+      "Brownie Bites (4 pcs)",
+      "Cookie Box (6 pcs)",
+      "Cookie Box (12 pcs)",
+      "Add-on: Ice Cream Scoop",
+      "Gift Box Packaging"
     ]
   }
 ]
