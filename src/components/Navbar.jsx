@@ -29,7 +29,7 @@ function Navbar() {
         <span></span>
       </div>
 
-      <ul className={menuOpen ? "nav-open" : ""}>
+      <ul className={`mobile-menu ${menuOpen ? "nav-open" : ""}`}>
         <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
         <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
         <li><a href="#menu" onClick={() => setMenuOpen(false)}>Menu</a></li>
@@ -40,4 +40,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar;  
