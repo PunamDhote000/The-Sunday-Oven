@@ -478,6 +478,7 @@ h3 {
 }
 
 
+
 /* Hamburger Menu */
 .hamburger {
   display: none;
@@ -564,42 +565,34 @@ h3 {
   width: 320px;
 }
 
-.menu-card {
-  background: #fdf7f1;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-  transition: 0.3s;
+.menu-card{
+    width:90%;
+    max-width:330px;
+    margin:0 auto;
 }
-
 .menu-card:hover {
   transform: translateY(-8px);
 }
 
-.menu-card img {
-  width: 220px;
-  height: 180px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto 15px;
+.menu-card img{
+    display: block;
+    width: 85%;      
+    max-width: 240px;
+    height: auto;
+
+    margin: 0 auto 18px auto;   
 }
 
-.menu-content {
-  padding: 20px;
-  text-align: center;
+.menu-content{
+    text-align:center;
 }
-.menu-content h3 {
-  color: #5b3214;
-  margin-bottom: 15px;
-  text-align: center;
-  font-size: 28px;
+.menu-content h3{
+    text-align:center;
 }
 
-.menu-content ul {
-  display: inline-block;
-  text-align: left;
-  padding-left: 20px;
-  margin: 0;
+.menu-content ul{
+    display:inline-block;
+    text-align:left;
 }
 
 
@@ -671,13 +664,13 @@ h3 {
     right:0;
     left:auto;
 
-    width:190px;          /* Pehle 220px tha */
+    width:190px;          
 
     background:#6f4e37;
 
     border-radius:0 0 0 15px;
 
-    padding:5px 0;        /* Pehle 8px tha */
+    padding:5px 0;        
 
     margin:0;
 
@@ -701,7 +694,7 @@ h3 {
 
 .mobile-menu li{
     list-style:none;
-    padding:12px 15px;      /* Pehle 15px 22px tha */
+    padding:12px 15px;      
     text-align:left;
 }
 
@@ -712,7 +705,7 @@ h3 {
     color:white;
     font-size:18px;
     display:block;
-    padding-left:6px;       /* New */
+    padding-left:6px;       
 }
 
 /* Hover */
@@ -746,4 +739,39 @@ h3 {
         transform:translateY(0) scale(1);
     }
 }
+
+.hero .whatsapp-btn{
+    position: static !important;
+    bottom: auto !important;
+    right: auto !important;
+    left: auto !important;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+    transform: none !important;
+
+    z-index: 1;
+}
+
+}
+
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.profile-icon {
+  font-size: 28px;
+  color: #8B5E3C;
+}
+
+.testimonial-header h3 {
+  margin: 0;
 }

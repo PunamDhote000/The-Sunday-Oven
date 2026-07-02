@@ -1,3 +1,5 @@
+import WhatsAppButton from "./WhatsAppButton";
+
 function Hero() {
 
   const handleExploreMenu = () => {
@@ -15,6 +17,7 @@ function Hero() {
       <button onClick={handleExploreMenu}>
         Explore Menu
       </button>
+      <WhatsAppButton />
     </section>
   );
 }
